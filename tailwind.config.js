@@ -9,7 +9,13 @@ export default {
   ],
   theme: {
   	extend: {
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
   		colors: {
+  			'brand-red': '#EE3F2C',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
@@ -44,10 +50,8 @@ export default {
   				foreground: 'hsl(var(--card-foreground))'
   			}
   		},
-  		borderRadius: {
-  			lg: 'var(--radius)',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
+  		fontFamily: {
+  			rubik: ['Rubik', 'sans-serif'],
   		}
   	}
   },

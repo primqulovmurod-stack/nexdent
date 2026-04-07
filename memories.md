@@ -1,17 +1,24 @@
-# 📥 Project Memories
+# 📥 Saytchi.uz Project Memories
 
-## 📅 2026-04-06
-- **Task**: Initialized project `3D Web Site`.
-- **Work Done**:
-    - Created `memories.md` for project tracking.
-    - Initialized Vite project and installed `three` and `gsap`.
-    - Created a premium dark theme in `style.css`.
-    - Implemented a basic Three.js scene with interactive 3D elements in `main.js`.
-    - Set up semantic HTML and SEO in `index.html`.
-- **Notes**: Basics are ready.
-- **Work Done (Continued)**:
-    - Added multiple sections to `index.html` for a full-page scroll experience.
-    - Enhanced `style.css` with a modern dark-blue gradient and glassmorphism.
-    - Integrated `ScrollTrigger` in `main.js` to animate the 3D scene and text content based on scroll position.
-    - Added complex 3D elements: BufferGeometry particles, Torus rings, and MeshPhysicalMaterial sphere.
-- **Next Steps**: Performance optimizations and finalizing the contact section/footer.
+## 📅 2026-04-06 (Latest State: V.4.1 Peak Fidelity)
+
+### 🚨 Strict Directive
+- **Qoida**: Sanga aytmagan narsamni qilma. (Faqat sizning aniq buyruqlaringiz asosida ishlash).
+
+### 🛠 Work Done:
+- **Landing UI**: **V.4.1** holatiga qaytarildi (Premium yashil-oq dizayn, "Ma'lumotlaringiz, Bizning Dizaynimiz" sarlavhasi).
+- **Admin Panel**: `/admin` — **Taklifnoma Asia** uslubidagi dark-mode dizayn.
+- **Dashboard**: `/dashboard` — Loyihalarni tahrirlash va ulashish bo'limi.
+- **Routing**: `react-router-dom` orqali `/admin`, `/dashboard` va `/:slug` dinamik yo'llar.
+- **Business Logic**: Tahrirlash -> Saqlash -> Admin Faollash -> Ulashish.
+- **URL Structure**: Saytlar `saytchi.uz/:slug` shaklida ochiladi (Faqat faollar).
+
+### 🌐 Live URLs:
+- **Public**: [https://saytchi.uz](https://saytchi.uz)
+- **Admin**: [https://saytchi.uz/admin](https://saytchi.uz/admin)
+- **Dashboard**: [https://saytchi.uz/dashboard](https://saytchi.uz/dashboard)
+
+### 📈 Next Steps (Only on User Command):
+- Database (Supabase/Firebase) integratsiyasi.
+- Payme/Click to'lov tizimlarini ulash.
+- Yangi shablonlar (Wedding, SaaS) qo'shish.
